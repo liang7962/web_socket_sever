@@ -36,12 +36,12 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>javax</groupId>
-			<artifactId>javaee-api</artifactId>
-			<version>7.0</version>
-			<scope>provided</scope>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>javax</groupId>-->
+			<!--<artifactId>javaee-api</artifactId>-->
+			<!--<version>7.0</version>-->
+			<!--<scope>provided</scope>-->
+		<!--</dependency>-->
 
 		<!--springboot的高级组件会自动引用基础的组件，像spring-boot-starter-websocket就引入了spring-boot-starter-web和spring-boot-starter，所以不要重复引入-->
 		<dependency>
