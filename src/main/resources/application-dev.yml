@@ -1,0 +1,17 @@
+spring:
+  config:
+    name: application
+  main:
+    show-banner: false
+
+server:
+  port: 9201
+  servlet:
+    context-path: /web_scoket
+  tomcat:
+    basedir: /tmp
+    uri-encoding: UTF-8
+
+current:
+  project:
+    path: http://127.0.0.1 #服务器打印日志
